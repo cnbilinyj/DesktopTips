@@ -1,0 +1,21 @@
+﻿<Window x:Class="DesktopTips.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DesktopTips" 
+        Height="200" Width="300"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ShowInTaskbar="False"
+        SourceInitialized="Window_SourceInitialized">
+    <Grid>
+        <TextBlock x:Name="TipText" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" 
+                   FontSize="24" 
+                   Foreground="White"
+                   TextWrapping="Wrap"/>
+    </Grid>
+</Window>
